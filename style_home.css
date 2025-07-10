@@ -1,0 +1,28 @@
+/* Home page specific styles */
+.hero {
+  height: 60vh;
+  background-image: url('../assets/img.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ddd;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #00d1ff;
+  font-weight: 600;
+}

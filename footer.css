@@ -1,0 +1,24 @@
+/* Footer styles */
+.footer {
+  background-color: #212529; /* Dark background */
+  color: #f8f9fa; /* Light text */
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer .social-icons a {
+  color: #f8f9fa;
+  font-size: 24px;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+  color: #00f7ff; /* Glow color */
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6c757d; /* Muted color */
+}

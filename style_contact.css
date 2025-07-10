@@ -1,0 +1,9 @@
+/* Contact page specific styles */
+.btn-success {
+  background-color: #00d1ff;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #00aacc;
+}
