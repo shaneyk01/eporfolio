@@ -43,6 +43,78 @@
     </div>
   </section>
 
+  <!-- Accordion Section -->
+  <section class="container py-5">
+    <h2 data-aos="fade-up" class="text-center mb-4">A Little More About Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion" id="infoAccordion">
+          <!-- Item 1: Family -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFamily">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFamily" aria-expanded="false" aria-controls="collapseFamily">
+                <i class="fas fa-users me-2"></i> My Family
+              </button>
+            </h2>
+            <div id="collapseFamily" class="accordion-collapse collapse" aria-labelledby="headingFamily" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+                <p>Family is a big part of my life. Here are a few placeholder images representing my loved ones.</p>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <img src="assets/family1.png" class="img-fluid rounded" alt="Family placeholder image 1">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="assets/family2.png" class="img-fluid rounded" alt="Family placeholder image 2">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Pearl Harbor -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingHometown">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHometown" aria-expanded="false" aria-controls="collapseHometown">
+                <i class="fas fa-anchor me-2"></i> My Hometown: Pearl Harbor
+              </button>
+            </h2>
+            <div id="collapseHometown" class="accordion-collapse collapse" aria-labelledby="headingHometown" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+                <p>I draw a lot of inspiration from my hometown of Pearl City, overlooking the historic Pearl Harbor.</p>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <img src="assets/pearlharbor1.jpeg" class="img-fluid rounded" alt="Pearl Harbor placeholder image 1">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="assets/pearlharbor2.jpeg" class="img-fluid rounded" alt="Pearl Harbor placeholder image 2">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Links -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingLinks">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLinks" aria-expanded="false" aria-controls="collapseLinks">
+                <i class="fas fa-link me-2"></i> Professional Links
+              </button>
+            </h2>
+            <div id="collapseLinks" class="accordion-collapse collapse" aria-labelledby="headingLinks" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+                <p>You can find my work on GitHub and connect with me on LinkedIn.</p>
+                <div class="d-grid gap-2">
+                  <a href="https://github.com/Shaneyk01" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer"><i class="fab fa-github me-2"></i>View my GitHub</a>
+                  <a href="https://www.linkedin.com/in/shaney-kalilikane-9822a636a/" class="btn btn-outline-light" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin me-2"></i>Connect on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Trigger Button -->
 <div class="text-center py-4">
   <button class="btn btn-glow" data-bs-toggle="modal" data-bs-target="#aboutModal">More About Me</button>

@@ -32,6 +32,36 @@ body {
   border: 4px solid #00d1ff;
 }
 
+/* Accordion styles */
+.accordion-item {
+  background-color: #1a222c;
+  border: 1px solid rgba(0, 247, 255, 0.2);
+  color: #f2f2f2;
+}
+
+.accordion-button {
+  background-color: #212529;
+  color: #f2f2f2;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #003c4d;
+  color: #00f7ff;
+  box-shadow: inset 0 -1px 0 rgba(0, 247, 255, 0.2);
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.3);
+}
+
+.accordion-button.collapsed {
+  color: #f2f2f2;
+}
+
+.accordion-body {
+  background-color: #101820;
+}
+
 /* Modal styles */
 .modal-content {
   background-color: #1a222c; /* Dark background */
